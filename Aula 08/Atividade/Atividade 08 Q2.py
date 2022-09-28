@@ -14,7 +14,7 @@ yA = float(input('Digite o valor do ponto A:'))
 yB = float(input('Digite o valor do ponto B:'))
 
 #Calculando a Distância
-distAB = sqrt(((xA-xB)**2)+((yA-yB)**2)**2)
+distAB = sqrt((xA-xB)**2)+((yA-yB)**2)
 
 #Mostrando resultado
 print('A distância entre esses dois pontos é de:',distAB, 'unidade de medida')
